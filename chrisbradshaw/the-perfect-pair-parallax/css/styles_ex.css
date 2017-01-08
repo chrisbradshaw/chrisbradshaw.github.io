@@ -1,0 +1,2951 @@
+.clear:before,
+.clear:after {
+    content: ' ';
+    display: table;
+}
+
+.clear {
+    *zoom: 1;
+}
+
+.clear:after {
+    clear: both;
+}
+
+
+/*! normalize.css v3.0.2 | MIT License | git.io/normalize */
+
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+body {
+    margin: 0;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+    display: block;
+}
+
+audio,
+canvas,
+progress,
+video {
+    display: inline-block;
+    vertical-align: baseline;
+}
+
+audio:not([controls]) {
+    display: none;
+    height: 0;
+}
+
+[hidden],
+template {
+    display: none;
+}
+
+a {
+    background-color: transparent;
+}
+
+a:active,
+a:hover {
+    outline: 0;
+}
+
+abbr[title] {
+    border-bottom: 1px dotted;
+}
+
+b,
+strong {
+    font-weight: 700;
+}
+
+dfn {
+    font-style: italic;
+}
+
+h1 {
+    font-size: 2em;
+    margin: .67em 0;
+}
+
+mark {
+    background: #ff0;
+    color: #000;
+}
+
+small {
+    font-size: 80%;
+}
+
+sub,
+sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+}
+
+sup {
+    top: -.5em;
+}
+
+sub {
+    bottom: -.25em;
+}
+
+img {
+    border: 0;
+}
+
+svg:not(:root) {
+    overflow: hidden;
+}
+
+figure {
+    margin: 1em 40px;
+}
+
+hr {
+    box-sizing: content-box;
+    height: 0;
+}
+
+pre {
+    overflow: auto;
+}
+
+code,
+kbd,
+pre,
+samp {
+    font-family: monospace, monospace;
+    font-size: 1em;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+    color: inherit;
+    font: inherit;
+    margin: 0;
+}
+
+button {
+    overflow: visible;
+}
+
+button,
+select {
+    text-transform: none;
+}
+
+button,
+html input[type=button],
+input[type=reset],
+input[type=submit] {
+    -webkit-appearance: button;
+    cursor: pointer;
+}
+
+button[disabled],
+html input[disabled] {
+    cursor: default;
+}
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+
+input {
+    line-height: normal;
+}
+
+input[type=checkbox],
+input[type=radio] {
+    box-sizing: border-box;
+    padding: 0;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    height: auto;
+}
+
+input[type=search] {
+    -webkit-appearance: textfield;
+    box-sizing: content-box;
+}
+
+input[type=search]::-webkit-search-cancel-button,
+input[type=search]::-webkit-search-decoration {
+    -webkit-appearance: none;
+}
+
+fieldset {
+    border: 1px solid silver;
+    margin: 0 2px;
+    padding: .35em .625em .75em;
+}
+
+legend {
+    border: 0;
+    padding: 0;
+}
+
+textarea {
+    overflow: auto;
+}
+
+optgroup {
+    font-weight: 700;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+td,
+th {
+    padding: 0;
+}
+
+
+/*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+
+/* Fonts */
+
+@font-face {
+    font-family: "Bebas Neue";
+    src: url('../fonts/BebasNeue.woff') format('woff'), url('../fonts/BebasNeue.ttf') format('truetype'), url('../fonts/BebasNeue.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/* ===== Initializr Styles ==================================================
+Author: Jonathan Verrecchia - verekia.com/initializr/responsive-template
+========================================================================== */
+
+body {
+    font: 16px/1.76 'Roboto', 'Times New Roman', Times, serif;
+    background-color: #000000;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.wrapper {
+    width: 80%;
+    margin: 0 10%;
+}
+
+
+/* Make the body 100% of the browser viewport height */
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+h1 {
+    font-size: 2em;
+    letter-spacing: 0.065em;
+    margin-top: 0;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+
+/* ==========================================================================
+SpinMedia custom styles
+========================================================================== */
+
+
+/* =Nav */
+
+header#banner {
+    width: 100vw;
+    height: 50px;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    background-color: rgba(27, 27, 27, 0.9);
+    border-bottom: 5px solid #fff;
+}
+
+#main {
+    width: 100vw;
+    overflow: hidden;
+}
+
+.hamburger {
+    display: block;
+}
+
+.hamburger-btn {
+    display: block;
+    position: fixed;
+    margin-top: 0px;
+    z-index: 1000;
+    height: 50px;
+    left: 0px;
+}
+
+.hamburger-menu {
+    position: fixed;
+    top: 62px;
+    display: none;
+}
+
+.expand {
+    display: block !important;
+}
+
+.sponsored-text {
+    position: absolute;
+    top: 50px;
+    float: right;
+    margin: 2px 10px;
+    color: rgb(179, 175, 175);
+    font-family: arial;
+    font-size: 10px;
+    text-transform: uppercase;
+    line-height: 50px;
+}
+
+.hamburger a img.logo {
+    float: right;
+    margin: 16px 26px 0 0;
+    height: 20px;
+    box-sizing: border-box;
+    padding: 1px;
+}
+
+.hamburger #converseLogo {
+    position: fixed;
+    display: none;
+    right: 20px;
+}
+
+.hamburger #playBtn {
+    height: 50px;
+    width: 50px;
+    float: right;
+    position: relative;
+    right: 6px;
+}
+
+.hamburger #playImg {
+    background-image: url(../img/button-sprite.png);
+    background-size: cover;
+    background-position: 90px 0px;
+    height: 30px;
+    width: 30px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.hamburger #pauseBtn {
+    height: 50px;
+    width: 50px;
+    display: none;
+    float: right;
+    position: relative;
+    right: 10px;
+}
+
+.hamburger #pauseImg {
+    background-image: url(../img/button-sprite.png);
+    background-size: cover;
+    background-position: 0px 0px;
+    height: 30px;
+    width: 30px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.hamburger .playingWrap {
+    position: relative;
+    right: 14px;
+    height: 55px;
+    top: 0px;
+    float: right;
+    padding-right: 10px;
+    padding-left: 15px;
+    margin-right: -5px;
+    border-left: 1px solid #FFF;
+    text-align: right;
+}
+
+.hamburger #nowPlaying {
+    padding-top: 16px;
+    font-size: 0.65em;
+    line-height: 0.2em;
+    color: #FFF;
+}
+
+.hamburger #playingTicks {
+    color: #FFF;
+    position: relative;
+    right: 10px;
+    float: right;
+    width: 30px;
+    height: 30px;
+    top: 10px;
+    margin-right: -40px;
+    z-index: -1;
+}
+
+.hamburger .artistsNav {
+    display: none;
+    height: 45px;
+    color: #FFF;
+    position: relative;
+    text-align: center;
+    float: right;
+    font-family: "Bebas Neue", "sans-serif";
+    text-transform: uppercase;
+    font-size: 0.9em;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.hamburger #catchdubs {
+    border-right: 1px solid #FFF;
+}
+
+.hamburger .aristsNav:not(.currentArtist) {
+    font-size: 0.9em;
+}
+
+.hamburger #catchdubs.artistColor {
+    color: #d5ff45;
+    font-size: 1em;
+}
+
+.hamburger #whiteLung.artistColor {
+    color: #ff004e;
+    font-size: 1em;
+}
+
+.hamburger #exHex.artistColor {
+    color: #705edd;
+    font-size: 1em;
+}
+
+.hamburger #exHex {
+    border-right: 1px solid #FFF;
+}
+
+.circle {
+    border-radius: 100%;
+    background: rgba(0, 0, 0, .1);
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    -webkit-transition: .1s ease all;
+    transition: .1s ease all
+}
+
+.hamburger #playingTicks span {
+    opacity: 0;
+}
+
+header div.divider {
+    width: 1px;
+    height: 25px;
+    position: relative;
+    top: 14px;
+    float: right;
+    background: rgb(179, 175, 175);
+    margin-right: 20px;
+}
+
+.social-holder-top {
+    position: absolute;
+    right: 10px;
+    top: 50px;
+    float: right;
+    height: 50px;
+    line-height: 50px;
+    padding-right: 10px;
+    overflow: hidden;
+    color: rgb(179, 175, 175);
+}
+
+.social-holder-top a {
+    color: rgb(179, 175, 175);
+    text-decoration: none;
+}
+
+.social-holder-top div.title {
+    float: left;
+    margin-right: 10px;
+    font-family: arial;
+    font-size: 10px;
+    text-transform: uppercase;
+    line-height: 51px;
+}
+
+.social-holder-top .sharre {
+    float: left;
+    line-height: 32px;
+    margin-right: 10px;
+}
+
+header#banner .social-holder-top .social-icons .sharrre {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 0;
+    cursor: pointer;
+}
+
+header#banner .social-holder-top .social-icons .sharrre>div {
+    border: 0px;
+    padding: 11px 9px 11px;
+}
+
+.icon-social {
+    font-size: 18px;
+    font-family: 'sm-icons';
+    peak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+}
+
+.social-icons .sharrre.twitter .icon-social:after {
+    content: "\f099";
+}
+
+.social-icons .sharrre.facebook .icon-social:after {
+    content: "\f09a";
+}
+
+
+/* =Preloader */
+
+#preloader {
+    position: absolute;
+    width: 100vw;
+    height: 100%;
+    z-index: 101;
+    background-color: #171717;
+    color: #ffffff;
+    overflow: hidden;
+}
+
+#preloader .txt {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+#preloader .prelogo {
+    background-image: url(../img/SPINLogo-white.png);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 160px;
+    height: 77px;
+    margin-top: -80px;
+}
+
+#preloader #headphonesCTA {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 500px;
+    height: 190px;
+    margin-top: -80px;
+}
+
+#preloader .txt-perc {
+    font-size: 21px;
+    font-family: Georgia, 'Domaine Display Regular', serif;
+    opacity: 1;
+    margin: 0 0 6px 0;
+    max-width: 400px;
+    text-align: center;
+}
+
+#preloader .progress {
+    width: 160px;
+    height: 3px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 0 auto 15px auto;
+}
+
+#preloader .progress span {
+    display: block;
+    width: 0;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+#preloader.is-hidden {
+    visibility: hidden;
+    opacity: 0;
+}
+
+.is-loading {
+    overflow: hidden;
+}
+
+
+/* =Header */
+
+.header-container {
+    width: 100%;
+    text-align: center;
+    color: #ffffff;
+    overflow: hidden;
+}
+
+.header-container .wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 2;
+}
+
+.header-container .wrapper .title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.header-container .wrapper .title-light {
+    position: absolute;
+    display: none;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.title-light {
+    margin-top: -83px;
+}
+
+.header-container .bcg {
+    -webkit-transition: -webkit-transform 2s ease-out;
+    transition: transform 2s ease-out;
+    /*-webkit-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    transform: scale(1.05);*/
+    -webkit-transform-origin: top center;
+    -ms-transform-origin: top center;
+    transform-origin: top center;
+}
+
+.header-container.is-loaded .bcg {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+}
+
+.header-container .multiply {
+    opacity: 0;
+    transition: opacity 0.5s ease-out 2s;
+}
+
+.bcg {
+    background: no-repeat center center;
+    background-size: cover;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0.5;
+}
+
+.bcg video {
+    margin-top: 50%;
+}
+
+.overbcg {
+    display: none;
+}
+
+.header-container .bcg {
+    background-image: url(../img/cover-bg.jpg);
+    box-shadow: inset 0 0 100px rgba(0, 0, 0, 1);
+    background-size: cover;
+    background-blend-mode: overlay;
+}
+
+.header-container.is-loaded .multiply {
+    background-image: radial-gradient(ellipse closest-side, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6)), url(../img/cover-bg.jpg);
+    box-shadow: inset 0 0 80px rgba(0, 0, 0, 1);
+    background-size: cover;
+    background-blend-mode: overlay;
+    opacity: 1;
+}
+
+#slide02 .bcg {
+    background: url(../img/Image_Comic.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+#slide03 .bcg {
+    background: url(../img/panel-5-fullpanel.gif) no-repeat center center;
+    background-size: cover;
+}
+
+#slide04 .bcg {
+    background: url(../img/PinballImage_Recut-2.jpg) no-repeat center top;
+    background-size: cover;
+    opacity: 1;
+}
+
+#slide05 .bcg {
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-image: url(../img/Nick_NightShift.jpg);
+    background-size: cover;
+}
+
+#slide07 .bcg {
+    background: url(../img/Image_Vitus_white.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+#slide08 .bcg {
+    background: url(../img/StreetGIF_Revised.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+#slide09 .bcg {
+    background: url(../img/BackImage_white_panel6.jpg) no-repeat center top;
+    background-size: cover;
+    opacity: 1;
+}
+
+#slide10 .bcg {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url(../img/Image_StMarks_white_panel7.jpg);
+    background-size: cover;
+}
+
+#slide12 .bcg {
+    background: url(../img/BackgroundImage_hex_panel3.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+#slide13 .bcg {
+    background: url(../img/Ex-HexStudio2.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+#slide14 .bcg {
+    background: url(../img/BabyBG_exhex_panel6.jpg) no-repeat center top;
+    background-size: cover;
+    opacity: 1;
+}
+
+#slide15 .bcg {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url(../img/Image_hex_panel7.jpg);
+    background-size: cover;
+}
+
+
+/* =Navigation */
+
+nav {
+    display: none;
+    position: fixed;
+    right: 30px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    text-align: right;
+    z-index: 100;
+}
+
+nav a {
+    display: block;
+    line-height: 25px;
+    position: relative;
+    padding-right: 20px;
+    color: rgb(172, 172, 172);
+    text-decoration: none;
+}
+
+nav a:hover .nav-label {
+    -webkit-transform: translateX(0);
+    -ms-transform: translateX(0);
+    transform: translateX(0);
+    opacity: 1;
+    visibility: visible;
+}
+
+nav .nav-dot {
+    display: block;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    background-color: rgba(220, 220, 220, 0.9);
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 100%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    -webkit-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+}
+
+nav .nav-label {
+    display: block;
+    opacity: 0.5;
+    visibility: hidden;
+    -webkit-transform: translateX(-10px);
+    -ms-transform: translateX(-10px);
+    transform: translateX(-10px);
+    -webkit-transition: all 0.2s cubic-bezier(.17, .67, .83, .67);
+    transition: all 0.2s cubic-bezier(.17, .67, .83, .67);
+}
+
+nav.is-dark a {
+    color: #212121;
+}
+
+nav.is-dark .nav-dot {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+nav.is-light a {
+    color: rgb(172, 172, 172);
+}
+
+nav.is-light .nav-dot {
+    background-color: rgba(172, 172, 172, 0.5);
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    width: auto;
+    list-style: none;
+}
+
+.scroll-hint {
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    padding: 10px 40px;
+    border: none;
+    font-size: 13px;
+    font-weight: bold;
+    font-family: 'Roboto Condensed', Helvetica, Helvetica Neue, Arial, sans-serif;
+    background-color: rgba(255, 255, 255, 0.0);
+    z-index: 2;
+}
+
+
+/* =Main */
+
+
+/*.videoDiv {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}*/
+
+.videoWrap {
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+}
+
+video {
+    width: 100%;
+}
+
+.timestamp {
+    position: relative;
+    padding-top: 10%;
+    text-align: right;
+    color: #FFF;
+    font-family: "Bebas Neue", sans-serif;
+    line-height: 1.5em;
+    text-transform: uppercase;
+}
+
+.timestamp .hr {
+    display: inline-block;
+}
+
+.timestamp .min {
+    display: inline-block;
+}
+
+.timestamp .meridiem {
+    display: inline-block;
+}
+
+.timestamp h1 {
+    color: #d5ff45;
+    margin: 10px 0;
+}
+
+.timestamp.lung h1 {
+    color: #ff004e;
+}
+
+.timestamp.hex h1 {
+    color: #705edd;
+}
+
+.timestamp h2 {
+    font-size: 1.4em;
+    margin: 0;
+}
+
+.timestamp h3 {
+    font-size: 1em;
+    margin: 0;
+}
+
+.triangle-cover-div {
+    display: none;
+}
+
+#intro {
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+#intro .title {
+    width: 80%;
+}
+
+.slide {
+    color: #ffffff;
+    position: relative;
+    border-bottom: 5px solid #fff;
+}
+
+.slide .wrapper {
+    text-align: center;
+    position: relative;
+    z-index: 2;
+}
+
+
+/*
+* Content Block 01
+*/
+
+#cb01 {
+    height: auto;
+}
+
+
+/**
+  * Ex Hex SLIDE 01
+  */
+
+.slide#slide11 {
+    background-color: #FFF;
+    padding-bottom: 25%;
+}
+
+.slide#slide11 .wrapper {
+    padding-top: 10%;
+    padding-bottom: 11%;
+}
+
+.slide#slide11 #purpDiv {
+    position: absolute;
+    width: 100%;
+    fill: #705edd;
+}
+
+.slide#slide11 .timestamp {
+    position: absolute;
+    padding-left: 10%;
+    padding-right: 10%;
+    top: 20px;
+    right: 0px;
+}
+
+.slide#slide11 #ex-hex {
+    position: absolute;
+    width: 100%;
+    top: 80%;
+    left: 0px;
+    text-align: center;
+}
+
+.slide#slide11 #ex-hex svg {
+    width: 100%;
+    margin: auto;
+}
+
+
+/*
+* Ex Hex Content Block 12
+*/
+
+#cb12 {
+    height: auto;
+    background-color: #FFF;
+    color: #000;
+}
+
+
+/**
+* Ex Hex SLIDE 02 
+*/
+
+.slide#slide12 .wrapper {
+    bottom: 10%;
+}
+
+.slide#slide12 {
+    border-bottom: 5px solid #fff;
+}
+
+.slide#slide12 header {
+    padding-top: 10%;
+}
+
+.slide#slide12 header img {
+    width: 100%;
+}
+
+.slide#slide12 hr {
+    display: none;
+}
+
+.slide#slide12 .timestamp {
+    position: relative;
+}
+
+.slide#slide12 section.union-pool-img {
+    padding-top: 10%;
+    padding-bottom: 5%;
+}
+
+.slide#slide12 section.union-pool-img img {
+    width: 100%;
+}
+
+.slide#slide12 .quote::before {
+    margin-left: -30px;
+}
+
+.slide#slide12 #ex-converse-shoes {
+    padding: 10px;
+}
+
+.slide#slide12 #ex-converse-shoes-img {
+    width: 100%;
+}
+
+.slide#slide12 #ex-fade-text #ex-fade-quote {
+    width: 80%;
+    max-width: 320px;
+    text-align: justify;
+    margin: 0 auto;
+}
+
+.slide#slide12 #ex-fade-text #hex-after-quote {
+    /*float: right;*/
+    font-family: 'Oswald', sans-serif;
+    font-weight: lighter;
+    font-size: 1.2em;
+    line-height: 1.5em;
+    margin-top: 0;
+}
+
+.slide#slide12 #ex-fade-div {
+    display: none;
+}
+
+.slide#slide12 #ex-fade-text .quote {
+    font-family: 'Oswald', sans-serif;
+    font-weight: lighter;
+    font-size: 1.5em;
+    line-height: 1.5em;
+    margin-bottom: 0.5em;
+    margin-top: 2em;
+}
+
+.slide#slide12 #poloroid-hex {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    width: 15%;
+}
+
+
+/**
+* Ex Hex SLIDE 03 CONVERSE SNEAKER
+*/
+
+.slide#slide13 {
+    height: 100vh;
+    cursor: 'pointer';
+}
+
+.slide#slide13 .wrapper {
+    padding-top: 10%
+}
+
+.slide#slide13 header {
+    text-align: center;
+}
+
+.slide#slide13 #shop-now-div {
+    position: absolute;
+    width: 100%;
+    margin-top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.slide#slide13 #shop-now-div #shop-img {
+    width: 100%;
+    margin: auto;
+}
+
+.slide#slide13 #shop-now-div #plus-button {
+    position: absolute;
+    margin-top: -70px;
+    margin-left: 50px;
+}
+
+
+/*
+* Ex Hex Content Block 14
+*/
+
+#cb14 {
+    height: auto;
+    background-color: #FFF;
+    color: #000;
+}
+
+
+/**
+* Ex Hex SLIDE 04
+*/
+
+.slide#slide14 {
+    background-color: #FFF;
+    color: #000;
+}
+
+.slide#slide14 .bcg {
+    height: 250px;
+}
+
+.slide#slide14 .wrapper {}
+
+.slide#slide14 .top-half {
+    height: 250px;
+}
+
+.slide#slide14 #group-photo {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.slide#slide14 #group-photo-img {
+    width: 100%;
+}
+
+.slide#slide14 #baby-triangle {
+    display: none;
+    fill: #fff;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+}
+
+.slide#slide14 #shop-now-ex {
+    position: absolute;
+    margin-top: -70%;
+    width: 100%;
+}
+
+.slide#slide14 #shop-now-ex #shop-img-ex {
+    width: 80%;
+    margin: auto;
+}
+
+.slide#slide14 #shop-now-ex #plus-button-ex {
+    width: 40px;
+    margin: auto;
+    margin-left: 25%;
+}
+
+
+/**
+* Ex Hex SLIDE 05 
+*/
+
+.slide#slide15 {
+    background-color: #000;
+    color: #FFF;
+}
+
+.slide#slide15 {
+    /*padding-top: 30px;*/
+}
+
+.slide#slide15 .wrapper {
+    padding-top: 10%;
+}
+
+.slide#slide15 #slide5bcg {
+    width: 100%;
+}
+
+.slide#slide15 .bcg {
+    /*top: 0px;*/
+}
+
+
+/**
+  * White Lung SLIDE 01
+  */
+
+.slide#slide06 {
+    background-color: #FFF;
+    padding-bottom: 25%;
+}
+
+.slide#slide06 .wrapper {
+    padding-top: 10%;
+    padding-bottom: 11%;
+}
+
+.slide#slide06 #redDiv {
+    position: absolute;
+    width: 100%;
+    fill: #ff004e;
+}
+
+.slide#slide06 .timestamp {
+    position: absolute;
+    padding-left: 10%;
+    padding-right: 10%;
+    top: 20px;
+    right: 0px;
+}
+
+.slide#slide06 #white-lung {
+    position: absolute;
+    width: 100%;
+    top: 80%;
+    left: 0px;
+    text-align: center;
+}
+
+.slide#slide06 #white-lung svg {
+    width: 100%;
+    margin: auto;
+}
+
+
+/*
+* White Lung Content Block 7
+*/
+
+#cb07 {
+    height: auto;
+    background-color: #FFF;
+    color: #000;
+}
+
+
+/**
+* White Lung SLIDE 02 
+*/
+
+.slide#slide07 .wrapper {
+    bottom: 10%;
+}
+
+.slide#slide07 {
+    border-bottom: 5px solid #fff;
+}
+
+.slide#slide07 header {
+    padding-top: 10%;
+}
+
+.slide#slide07 header img {
+    width: 100%;
+}
+
+.slide#slide07 hr {
+    display: none;
+}
+
+.slide#slide07 .timestamp {
+    position: relative;
+}
+
+.slide#slide07 section.vitus-quote {
+    font-family: 'Oswald', sans-serif;
+    font-weight: lighter;
+    font-size: 1.5em;
+    line-height: 1.5em;
+    text-align: right;
+    padding-top: 50%;
+    padding-bottom: 50%;
+}
+
+.slide#slide07 .quote::before {
+    margin-left: -20px;
+}
+
+.slide#slide07 #white-converse-shoes {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.slide#slide07 #white-converse-shoes-img {
+    width: 100%;
+}
+
+.slide#slide07 #shop-now-white {
+    position: absolute;
+    margin-top: -75%;
+    width: 100%;
+}
+
+.slide#slide07 #shop-now-white #shop-img-white {
+    width: 80%;
+    margin: auto;
+}
+
+.slide#slide07 #shop-now-white #plus-button-white {
+    width: 40px;
+    margin: auto;
+    margin-left: -20%;
+}
+
+
+/**
+* White Lung SLIDE 03 CONVERSE SNEAKER
+*/
+
+.slide#slide08 {
+    height: 100vh;
+    cursor: 'pointer';
+}
+
+.slide#slide08 .wrapper {
+    padding-top: 10%
+}
+
+.slide#slide08 header {
+    text-align: center;
+}
+
+.slide#slide08 #shop-now-div {
+    position: absolute;
+    width: 100%;
+    margin-top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.slide#slide08 #shop-now-div #shop-img {
+    width: 100%;
+    margin: auto;
+}
+
+.slide#slide08 #shop-now-div #plus-button {
+    position: absolute;
+    margin-top: -70px;
+    margin-left: 50px;
+}
+
+
+/**
+* White Lung SLIDE 04
+*/
+
+.slide#slide09 {
+    background-color: #FFF;
+    color: #000;
+}
+
+.slide#slide09 .bcg {
+    height: 250px;
+}
+
+.slide#slide09 .wrapper {}
+
+.slide#slide09 .top-half {
+    height: 250px;
+}
+
+.slide#slide09 #group-photo {
+    padding: 10px;
+}
+
+.slide#slide09 #group-photo-img {
+    width: 100%;
+}
+
+.slide#slide09 #river-triangle {
+    display: none;
+    fill: #fff;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+}
+
+
+/**
+* White Lung SLIDE 05 
+*/
+
+.slide#slide10 {
+    background-color: #000;
+    color: #FFF;
+}
+
+.slide#slide10 {
+    /*padding-top: 30px;*/
+}
+
+.slide#slide10 .wrapper {
+    padding-top: 10%;
+}
+
+.slide#slide10 #slide5bcg {
+    width: 100%;
+}
+
+.slide#slide10 .bcg {
+    /*top: 0px;*/
+}
+
+
+/**
+* SLIDE 01 NICK CATCHDUBS
+*/
+
+.slide#slide01 {
+    background-color: #FFF;
+    padding-bottom: 25%;
+}
+
+.bebas {
+    font-family: "Bebas Neue";
+    font-size: 1.56em;
+    line-height: 1.38em;
+    letter-spacing: 0.030em;
+}
+
+.oswald {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.5em;
+    line-height: 1.5em;
+}
+
+.centered {
+    text-align: center;
+}
+
+.quote::before {
+    position: absolute;
+    background-image: url(../img/QuoteMark.svg);
+    background-size: 45px 45px;
+    display: block;
+    width: 45px;
+    height: 45px;
+    margin-left: -10px;
+    margin-top: -15px;
+    z-index: -1;
+    content: '';
+}
+
+.slide#slide01 .wrapper {
+    padding-top: 10%;
+    padding-bottom: 11%;
+}
+
+.slide#slide01 #greenDiv {
+    position: absolute;
+    width: 100%;
+    fill: #d5ff45;
+}
+
+.slide#slide06 #redDiv {
+    position: absolute;
+    width: 100%;
+    fill: #ff004e;
+}
+
+.slide#slide01 .timestamp {
+    position: absolute;
+    padding-left: 10%;
+    padding-right: 10%;
+    top: 10px;
+    right: 0px;
+}
+
+.slide#slide01 #nick-catchdubs {
+    position: absolute;
+    width: 100%;
+    top: 80%;
+    left: 0px;
+    text-align: center;
+}
+
+.slide#slide01 #nick-catchdubs svg {
+    width: 100%;
+    margin: auto;
+}
+
+
+/*
+* Content Block 2
+*/
+
+#cb02 {
+    height: auto;
+    background-color: #FFF;
+    color: #000;
+}
+
+
+/**
+* SLIDE 02 ST MARKS COMIC BOOK STORE/FOOLS GOLD STORE
+*/
+
+.slide#slide02 .wrapper {
+    bottom: 10%;
+}
+
+.slide#slide02 {
+    border-bottom: 5px solid #fff;
+}
+
+.slide#slide02 header {
+    padding-top: 10%;
+}
+
+.slide#slide02 header img {
+    width: 100%;
+}
+
+.slide#slide02 hr {
+    display: none;
+}
+
+.slide#slide02 .timestamp {
+    position: relative;
+}
+
+.slide#slide02 section.comic-quote {
+    font-family: 'Oswald', sans-serif;
+    font-weight: lighter;
+    font-size: 1.5em;
+    line-height: 1.5em;
+    text-align: right;
+}
+
+.slide#slide02 #foam-hand {
+    padding: 10px;
+}
+
+.slide#slide02 #foam-hand-img {
+    width: 100%;
+}
+
+
+/**
+* SLIDE 03 CONVERSE SNEAKER
+*/
+
+.slide#slide03 {
+    height: 100vh;
+    cursor: pointer;
+}
+
+.slide#slide03 .wrapper {
+    padding-top: 10%
+}
+
+.slide#slide03 header {
+    text-align: center;
+}
+
+.slide#slide03 #shop-now-div {
+    position: absolute;
+    width: 100%;
+    margin-top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.slide#slide03 #shop-now-div #shop-img {
+    width: 100%;
+    margin: auto;
+}
+
+.slide#slide03 #shop-now-div #plus-button {
+    position: absolute;
+    margin-top: -70px;
+    margin-left: 50px;
+}
+
+
+/**
+* SLIDE 04 SUNSHINE PIT BAR
+*/
+
+.slide#slide04 {
+    background-color: #FFF;
+    color: #000;
+}
+
+.slide#slide04 .bcg {
+    height: 250px;
+}
+
+.slide#slide04 .wrapper {}
+
+.slide#slide04 .top-half {
+    height: 250px;
+}
+
+.slide#slide04 #playing-pinball {
+    padding: 10px;
+}
+
+.slide#slide04 #pinball-square {
+    width: 100%;
+}
+
+.slide#slide04 #pinball-triangle {
+    display: none;
+    fill: #fff;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+}
+
+
+/**
+* SLIDE 05 SPACE PIT STUDIOS
+*/
+
+.slide#slide05 {
+    background-color: #000;
+    color: #FFF;
+}
+
+.slide#slide05 {
+    /*padding-top: 30px;*/
+}
+
+.slide#slide05 .wrapper {
+    padding-top: 10%;
+}
+
+.slide#slide05 #slide5bcg {
+    width: 100%;
+}
+
+.slide#slide05 .bcg {
+    /*top: 0px;*/
+}
+
+.slide#slide05 .quote::before {
+    margin-left: -25px;
+}
+
+.button {
+    text-decoration: none;
+    color: #ffffff;
+    border: 1px rgba(255, 255, 255, 0.7) solid;
+    padding: 8px 15px;
+    margin-top: 15px;
+    display: inline-block;
+    position: relative;
+}
+
+.button:hover {
+    border-color: #ffffff;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+
+/* =Content Block */
+
+.content-block {
+    background-color: rgba(0, 0, 0, 1);
+    color: rgba(255, 255, 255, 1);
+    height: 0;
+    overflow: hidden;
+    margin-top: -1px;
+}
+
+.content-block .wrapper {
+    padding: 30px 0;
+    text-align: center;
+}
+
+.no-touch .content-block .wrapper {
+    visibility: hidden;
+    opacity: 0;
+}
+
+.no-touch .content-block.is-active .wrapper {
+    visibility: visible;
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+
+
+/* =Footer */
+
+.footer-container {
+    width: 100vw;
+    font-family: 'Fakt SemiCondensed';
+    text-align: center;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.5);
+    background-color: #06060d;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 2%;
+    overflow: hidden;
+}
+
+.footer-container h3 {
+    margin: 0;
+    padding: 20px 0;
+    font-weight: normal;
+}
+
+.footer-container a {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+footer span {
+    margin: 30px;
+}
+
+footer p.published {
+    clear: both;
+    margin-bottom: 0;
+    font-family: 'Fakt SemiCondensed';
+    text-align: center;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+
+/* =Simple animation up */
+
+.no-touch .slideInUp {
+    visibility: hidden;
+    opacity: 0;
+    -webkit-transition: all 0.7s ease-out;
+    transition: all 0.7s ease-out;
+    -webkit-transform: translate3d(0, 50px, 0);
+    transform: translate3d(0, 50px, 0);
+}
+
+.no-touch .is-active .slideInUp {
+    visibility: visible;
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+
+.slideInUp.slideInUp2 {
+    -webkit-transition-delay: 0.2s;
+    transition-delay: 0.2s;
+}
+
+.slideInUp.slideInUp3 {
+    -webkit-transition-delay: 0.4s;
+    transition-delay: 0.4s;
+}
+
+.scroll {
+    visibility: hidden;
+    opacity: 0;
+    visibility: hidden;
+    opacity: 0;
+    -webkit-transition: all 0.7s ease-out;
+    transition: all 0.7s ease-out;
+    -webkit-transform: translate3d(0, 50px, 0);
+    transform: translate3d(0, 50px, 0);
+}
+
+#iht_logo {
+    width: 100px;
+    margin-bottom: 30px;
+}
+
+
+/* ==========================================================================
+Media Queries
+========================================================================== */
+
+@media only screen and (min-width: 1040px) {
+    body {
+        font: 20px/40px 'Roboto', 'Times New Roman', Times, serif;
+        font-weight: 100;
+    }
+    h1 {
+        text-transform: uppercase;
+    }
+    p {
+        letter-spacing: 0;
+    }
+    .fs {
+        height: 100vh;
+    }
+    nav {
+        display: block;
+    }
+    .hamburger-btn {
+        left: 30px;
+    }
+    .hamburger .artistsNav {
+        display: block;
+        right: 10px;
+        padding: 5px;
+        border-left: 1px solid #FFF;
+        width: 80px;
+    }
+    .expand {
+        display: block !important;
+    }
+    .sponsored-text {
+        position: relative;
+        top: 0;
+    }
+    .hamburger #converseLogo {
+        display: block;
+        position: relative;
+        right: 0;
+    }
+    .social-holder-top {
+        position: relative;
+        top: 0;
+        right: 0;
+    }
+    /* =Header */
+    /*.header-container {
+        overflow: hidden;
+        position: relative;
+    }
+    .header-container .wrapper {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        margin: 0;
+        padding: 0;
+    }
+    .header-container:before {
+        font-size: 70em;
+    }*/
+    .header-container .wrapper .title-light {
+        display: block;
+    }
+    .scroll-hint {
+        font-size: 20px;
+    }
+    .bcg {
+        /*top: 40%;*/
+        opacity: 1;
+        backface-visibility: hidden;
+    }
+    .bcg video {
+        margin-top: 0;
+    }
+    #main .bcg {
+        display: block;
+        transform: scale(1.2);
+        opacity: 0;
+        height: 100%;
+    }
+    .overbcg {
+        display: block;
+        position: absolute;
+        top: 100%;
+        height: 100vh;
+        width: 100vw;
+        background-color: #FFF;
+        z-index: 1;
+    }
+    #intro .title {
+        width: initial;
+    }
+    .slide {
+        overflow: hidden;
+        overflow-x: hidden;
+    }
+    .slide section {
+        max-width: 600px;
+    }
+    .slide .wrapper {
+        /*padding-top: 120px;*/
+        position: absolute;
+        /*top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);*/
+        text-align: left;
+        width: 100%;
+        margin: 0;
+    }
+    /*.slide#slide01,
+.slide#slide02,
+.slide#slide03,
+.slide#slide06,
+.slide#slide09,
+.slide#slide012 {
+    color: #ffffff/*#212121
+    ;
+    padding-top: 0;
+}*/
+    .slide#slide01 .wrapper,
+    .slide#slide02 .wrapper,
+    .slide#slide03 .wrapper,
+    .slide#slide04 .wrapper,
+    .slide#slide05 .wrapper,
+    .slide#slide06 .wrapper,
+    .slide#slide07 .wrapper,
+    .slide#slide08 .wrapper,
+    .slide#slide09 .wrapper,
+    .slide#slide10 .wrapper,
+    .slide#slide11 .wrapper,
+    .slide#slide12 .wrapper,
+    .slide#slide13 .wrapper,
+    .slide#slide14 .wrapper,
+    .slide#slide15 .wrapper {
+        padding-top: 55px;
+        text-align: justify;
+        bottom: initial;
+    }
+    /*.slide#slide01 section,
+.slide#slide02 section,
+.slide#slide03 section,
+.slide#slide06 section,
+.slide#slide09 section,
+.slide#slide012 section {
+    opacity: 0;
+    margin: 0 auto;
+}*/
+    .slide#slide01 header,
+    .slide#slide02 header,
+    .slide#slide03 header,
+    .slide#slide04 header,
+    .slide#slide05 header,
+    .slide#slide06 header,
+    .slide#slide07 header,
+    .slide#slide08 header,
+    .slide#slide09 header,
+    .slide#slide10 header,
+    .slide#slide11 header,
+    .slide#slide12 header,
+    .slide#slide13 header,
+    .slide#slide14 header,
+    .slide#slide15 header {
+        padding-top: 20px;
+    }
+    .timestamp {
+        right: 7%;
+        padding-top: 0;
+    }
+    .triangle-cover-div {
+        display: block;
+        position: absolute;
+        bottom: 0;
+        height: 10vh;
+        background-color: #FFF;
+        width: 100%;
+        z-index: 1;
+    }
+    #cb01 .wrapper {
+        padding: 7% 0;
+        margin: 0 auto;
+    }
+    /**
+      * Ex Hex SLIDE 01 Ex Hex
+      */
+    .slide#slide11 {
+        padding-bottom: 0;
+    }
+    .slide#slide11 .wrapper {
+        padding-top: 7%;
+        padding-bottom: 0;
+    }
+    .slide#slide11 header {
+        padding: 0;
+    }
+    .slide#slide11 section {
+        max-width: 100%;
+        padding-left: 10%;
+        padding-right: 10%;
+        /*margin-top: 55px;
+    padding: 15%;*/
+    }
+    .slide#slide11 #purpDiv {
+        transform: scale(1, 0.5);
+        transform-origin: top;
+    }
+    .slide#slide11 .timestamp {
+        opacity: 0;
+        top: 20px;
+        right: 40px;
+        z-index: 1;
+    }
+    .slide#slide11 #ex-hex {
+        top: 25%;
+    }
+    .slide#slide11 #ex-hex svg {
+        width: 50%;
+    }
+    /**
+      * Ex Hex SLIDE 3 ex BACKGROUND WITH ex TEXT
+      */
+    #cb07 .wrapper {
+        padding-top: 0px;
+        padding-bottom: 75px;
+    }
+    /**
+      * Ex Hex SLIDE 02
+      */
+    .slide#slide12 {
+        background-color: #FFF;
+    }
+    .slide#slide12 header {
+        padding-top: 20px;
+    }
+    .slide#slide12 .bcg {
+        transform-origin: top;
+    }
+    .slide#slide12 section {
+        max-width: 100%;
+    }
+    .slide#slide12 .timestamp {
+        opacity: 0;
+    }
+    .slide#slide12 section {
+        opacity: 0;
+        margin: 0 auto;
+    }
+    .slide#slide12 section.union-pool-img {
+        display: none;
+    }
+    .slide#slide12 .academy-records {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        opacity: 1;
+        color: #000;
+    }
+    .slide#slide12 #ex-converse-shoes {
+        top: 75px;
+        position: absolute;
+        max-width: 1000px;
+        width: 40%;
+        height: 100%;
+        margin: 0 auto;
+        padding: 0;
+        margin-top: 100%;
+        margin-left: 10%;
+    }
+    .slide#slide12 #ex-converse-shoes-img {
+        border: 5px solid #FFF;
+        /*box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.15);*/
+    }
+    .slide#slide12 #ex-fade-div {
+        display: block;
+        height: 1.5em;
+        width: 100%;
+        position: absolute;
+        top: 0px;
+        z-index: 1;
+        background: -moz-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
+        /* FF3.6-15 */
+        background: -webkit-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
+        /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
+        /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    }
+    .slide#slide12 #ex-fade-text {
+        position: absolute;
+        opacity: 0;
+        max-width: 454px;
+        text-align: justify;
+        margin-top: 3%;
+        right: 10%;
+        overflow: hidden;
+    }
+    .slide#slide12 #academy-records {
+        color: #000;
+        padding-top: 75px;
+    }
+    /**
+      * Ex Hex SLIDE 03 CONVERSE SNEAKER
+      */
+    .slide#slide13 .wrapper {}
+    .slide#slide13 header {
+        opacity: 0;
+        position: absolute;
+        right: 7%;
+    }
+    .slide#slide13 .timestamp {}
+    .slide#slide13 section {
+        opacity: 0;
+        max-width: 100%;
+        margin: 0 auto;
+    }
+    .slide#slide13 #shop-now-div {
+        margin-top: 25%;
+        left: 55%;
+    }
+    .slide#slide13 #shop-now-div #shop-img {
+        width: initial;
+        margin: auto;
+    }
+    /**
+      * Ex Hex SLIDE 04 
+      */
+    .slide#slide14 {
+        /*top: 50%;
+left: 50%;
+-webkit-transform: translate(-50%, -50%);
+-ms-transform: translate(-50%, -50%);*/
+        /*transform: translate(0%, -50%);
+opacity: 0;*/
+    }
+    .slide#slide14 .wrapper {
+        /*top: 50%;
+left: 50%;
+-webkit-transform: translate(50%, 50%);
+-ms-transform: translate(50%, 50%);
+transform: translate(-50%, 50%);*/
+    }
+    .slide#slide14 header {
+        opacity: 0;
+    }
+    .slide#slide14 .timestamp {
+        z-index: 1;
+    }
+    .slide#slide14 section {
+        opacity: 0;
+        width: 50%;
+        max-width: 700px;
+        padding-left: 30px;
+    }
+    .slide#slide14 section p {
+        padding-left: 13%;
+    }
+    .slide#slide14 .bcg {
+        background-size: cover;
+        background-position-x: -10px;
+        background-position-y: -15px;
+        height: 100vh;
+    }
+    .slide#slide14 #group-photo {
+        width: 40%;
+        position: absolute;
+        top: 200%;
+        right: 5%;
+        z-index: -1;
+    }
+    .slide#slide14 #group-photo-img {
+        border: 5px solid #FFF;
+    }
+    .slide#slide14 #baby-triangle {
+        display: block;
+        top: 0;
+        left: 0px;
+        width: 100%;
+        height: 200%;
+        z-index: -2;
+    }
+    .slide#slide14 #shop-now-ex {
+        margin-top: -55%;
+        margin-left: 10%;
+    }
+    .slide#slide14 #shop-now-ex #shop-img-ex {
+        width: initial;
+    }
+    .slide#slide14 #shop-now-ex #plus-button-ex {
+        width: initial;
+        margin-left: 50%;
+    }
+    /**
+      * Ex Hex SLIDE 05
+      */
+    .slide#slide15 header {
+        opacity: 0;
+    }
+    .slide#slide15 .bcg {
+        /*top: initial;*/
+    }
+    .slide#slide15 .wrapper {}
+    .slide#slide15 section {
+        opacity: 0;
+        max-width: 600px;
+        padding-left: 30px;
+        text-shadow: 1px 1px rgb(0, 0, 0);
+    }
+    .slide#slide15 section p {
+        padding-left: 60px;
+    }
+    .slide#slide15 .quote {
+        max-width: 500px;
+        margin-top: 60px;
+    }
+    /**
+      * White Lung SLIDE 01 WHITE LUNG
+      */
+    .slide#slide06 {
+        padding-bottom: 0;
+    }
+    .slide#slide06 .wrapper {
+        padding-top: 7%;
+        padding-bottom: 0;
+    }
+    .slide#slide06 header {
+        padding: 0;
+    }
+    .slide#slide06 section {
+        max-width: 100%;
+        padding-left: 10%;
+        padding-right: 10%;
+        /*margin-top: 55px;
+    padding: 15%;*/
+    }
+    .slide#slide06 #redDiv {
+        transform: scale(1, 0.5);
+        transform-origin: top;
+    }
+    .slide#slide06 .timestamp {
+        opacity: 0;
+        top: 20px;
+        right: 40px;
+        z-index: 1;
+    }
+    .slide#slide06 #white-lung {
+        top: 25%;
+    }
+    .slide#slide06 #white-lung svg {
+        width: 75%;
+    }
+    /**
+      * White Lung SLIDE 3 WHITE BACKGROUND WITH WHITE TEXT
+      */
+    #cb07 .wrapper {
+        padding-top: 0px;
+        padding-bottom: 75px;
+    }
+    /**
+      * White Lung SLIDE 02
+      */
+    .slide#slide07 {
+        background-color: #FFF;
+    }
+    .slide#slide07 header {
+        padding-top: 20px;
+    }
+    .slide#slide07 .bcg {
+        transform-origin: top;
+    }
+    .slide#slide07 section {
+        max-width: 100%;
+    }
+    .slide#slide07 .timestamp {
+        opacity: 0;
+    }
+    .slide#slide07 section {
+        opacity: 0;
+        margin: 0 auto;
+    }
+    .slide#slide07 section.vitus-quote {
+        display: none;
+    }
+    .slide#slide07 .milk-honey {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        opacity: 1;
+        color: #000;
+    }
+    .slide#slide07 #white-converse-shoes {
+        top: 75px;
+        position: absolute;
+        max-width: 1000px;
+        width: 40%;
+        height: 100%;
+        margin: 0 auto;
+        padding: 0;
+        margin-top: 100%;
+        margin-left: 10%;
+    }
+    .slide#slide07 #shop-now-white {
+        margin-top: -70%;
+        margin-left: 10%;
+    }
+    .slide#slide07 #shop-now-white #shop-img-white {
+        width: initial;
+        margin-top: 10%;
+    }
+    .slide#slide07 #shop-now-white #plus-button-white {
+        width: initial;
+        margin-left: 20%;
+    }
+    .slide#slide07 #white-converse-shoes-img {
+        border: 5px solid #FFF;
+        /*box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.15);*/
+    }
+    .slide#slide07 #white-milk-quote {
+        position: absolute;
+        opacity: 0;
+        max-width: 454px;
+        text-align: justify;
+        margin-top: 3%;
+        right: 10%;
+    }
+    .slide#slide07 #milk-honey {
+        color: #000;
+        padding-top: 75px;
+    }
+    /**
+      * White Lung SLIDE 03 CONVERSE SNEAKER
+      */
+    .slide#slide08 .wrapper {}
+    .slide#slide08 header {
+        opacity: 0;
+        position: absolute;
+        right: 7%;
+    }
+    .slide#slide08 .timestamp {}
+    .slide#slide08 section {
+        opacity: 0;
+        max-width: 100%;
+        margin: 0 auto;
+    }
+    .slide#slide08 #shop-now-div {
+        margin-top: 25%;
+        left: 55%;
+    }
+    .slide#slide08 #shop-now-div #shop-img {
+        width: initial;
+        margin: auto;
+    }
+    /**
+      * White Lung SLIDE 04 
+      */
+    .slide#slide09 {
+        /*top: 50%;
+left: 50%;
+-webkit-transform: translate(-50%, -50%);
+-ms-transform: translate(-50%, -50%);*/
+        /*transform: translate(0%, -50%);
+opacity: 0;*/
+    }
+    .slide#slide09 .wrapper {
+        /*top: 50%;
+left: 50%;
+-webkit-transform: translate(50%, 50%);
+-ms-transform: translate(50%, 50%);
+transform: translate(-50%, 50%);*/
+    }
+    .slide#slide09 header {
+        opacity: 0;
+    }
+    .slide#slide09 .timestamp {
+        z-index: 1;
+    }
+    .slide#slide09 section {
+        opacity: 0;
+        width: 50%;
+        max-width: 700px;
+        padding-left: 30px;
+    }
+    .slide#slide09 section p {
+        padding-left: 13%;
+    }
+    .slide#slide09 .bcg {
+        background-size: contain;
+        height: 100vh;
+    }
+    .slide#slide09 #group-photo {
+        width: 40%;
+        position: absolute;
+        top: 200%;
+        right: 5%;
+        z-index: -1;
+    }
+    .slide#slide09 #group-photo-img {
+        border: 5px solid #FFF;
+    }
+    .slide#slide09 #river-triangle {
+        display: block;
+        top: 0;
+        left: 0px;
+        width: 100%;
+        height: 200%;
+        z-index: -2;
+    }
+    /**
+      * White Lung SLIDE 05
+      */
+    .slide#slide10 header {
+        opacity: 0;
+    }
+    .slide#slide10 .bcg {
+        /*top: initial;*/
+    }
+    .slide#slide10 .wrapper {}
+    .slide#slide10 section {
+        opacity: 0;
+        max-width: 600px;
+        padding-left: 30px;
+        text-shadow: 1px 1px rgb(0, 0, 0);
+    }
+    .slide#slide10 section p {
+        padding-left: 60px;
+    }
+    .slide#slide10 .quote {
+        max-width: 500px;
+        margin-top: 60px;
+    }
+    /**
+    * SLIDE 01 NICK CATCHDUBS
+    */
+    .slide#slide01 {
+        padding-bottom: 0;
+    }
+    .slide#slide01 .wrapper {
+        padding-top: 7%;
+        padding-bottom: 0;
+    }
+    .slide#slide01 header {
+        padding: 0;
+    }
+    .slide#slide01 section {
+        max-width: 100%;
+        padding-left: 10%;
+        padding-right: 10%;
+        /*margin-top: 55px;
+    padding: 15%;*/
+    }
+    .slide#slide01 #greenDiv {
+        transform: scale(1, 0.5);
+        transform-origin: top;
+    }
+    .slide#slide01 .timestamp {
+        opacity: 0;
+        top: 20px;
+        right: 40px;
+        z-index: 1;
+    }
+    .slide#slide01 #nick-catchdubs {
+        top: 25%;
+    }
+    .slide#slide01 #nick-catchdubs svg {
+        width: 75%;
+    }
+    #cb02 .wrapper {
+        padding-top: 0px;
+        padding-bottom: 75px;
+    }
+    /**
+* SLIDE 02 ST MARKS COMIC BOOK AND FOOLS GOLD
+*/
+    .slide#slide02 {
+        background-color: #FFF;
+    }
+    .slide#slide02 header {
+        padding-top: 20px;
+    }
+    .slide#slide02 .bcg {
+        transform-origin: top;
+    }
+    .slide#slide02 section {
+        max-width: 100%;
+    }
+    .slide#slide02 .timestamp {
+        opacity: 0;
+    }
+    .slide#slide02 section {
+        opacity: 0;
+        margin: 0 auto;
+    }
+    .slide#slide02 section.comic-quote {
+        font-family: 'Oswald', sans-serif;
+        font-weight: lighter;
+        font-size: 1.5em;
+        line-height: 1.5em;
+        max-width: 350px;
+        margin-right: 7%;
+        margin-top: 10%;
+        text-align: right;
+    }
+    .slide#slide02 .quote::before {
+        margin-left: -10px;
+    }
+    .slide#slide02 .fools-gold {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        opacity: 1;
+        color: #000;
+    }
+    .slide#slide02 #foam-hand {
+        top: 75px;
+        position: absolute;
+        max-width: 1000px;
+        width: 40%;
+        height: 100%;
+        margin: 0 auto;
+        padding: 0;
+        margin-top: 100%;
+        margin-left: 10%;
+    }
+    .slide#slide02 #foam-hand-img {
+        border: 5px solid #FFF;
+        /*box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.15);*/
+    }
+    .slide#slide02 #fools-gold-pinball {
+        position: absolute;
+        opacity: 0;
+        max-width: 450px;
+        text-align: justify;
+        margin-top: 3%;
+        right: 10%;
+    }
+    .slide#slide02 #gold-store {
+        color: #000;
+        padding-top: 75px;
+    }
+    /**
+* SLIDE 03 CONVERSE SNEAKER
+*/
+    .slide#slide03 .wrapper {}
+    .slide#slide03 header {
+        opacity: 0;
+        position: absolute;
+        right: 7%;
+    }
+    .slide#slide03 .timestamp {}
+    .slide#slide03 section {
+        opacity: 0;
+        max-width: 100%;
+        margin: 0 auto;
+    }
+    .slide#slide03 #shop-now-div {
+        margin-top: 25%;
+        left: 55%;
+    }
+    .slide#slide03 #shop-now-div #shop-img {
+        width: initial;
+        margin: auto;
+    }
+    /**
+* SLIDE 04 SUNSHINE PINBALL BAR
+*/
+    .slide#slide04 {
+        /*top: 50%;
+left: 50%;
+-webkit-transform: translate(-50%, -50%);
+-ms-transform: translate(-50%, -50%);*/
+        /*transform: translate(0%, -50%);
+opacity: 0;*/
+    }
+    .slide#slide04 .wrapper {
+        /*top: 50%;
+left: 50%;
+-webkit-transform: translate(50%, 50%);
+-ms-transform: translate(50%, 50%);
+transform: translate(-50%, 50%);*/
+    }
+    .slide#slide04 header {
+        opacity: 0;
+    }
+    .slide#slide04 .timestamp {
+        z-index: 1;
+    }
+    .slide#slide04 section {
+        opacity: 0;
+        width: 50%;
+        max-width: 700px;
+        padding-left: 30px;
+    }
+    .slide#slide04 section p {
+        padding-left: 13%;
+    }
+    .slide#slide04 .bcg {
+        background-size: cover;
+        height: 100vh;
+    }
+    .slide#slide04 #playing-pinball {
+        width: 40%;
+        position: absolute;
+        top: 200%;
+        right: 5%;
+        z-index: -1;
+    }
+    .slide#slide04 #pinball-square {
+        border: 5px solid #FFF;
+    }
+    .slide#slide04 #pinball-triangle {
+        display: block;
+        top: 0;
+        left: 0px;
+        width: 100%;
+        height: 200%;
+        z-index: -2;
+    }
+    /**
+* SLIDE 05 SPACE PIT STUDIOS
+*/
+    .slide#slide05 header {
+        opacity: 0;
+    }
+    .slide#slide05 .bcg {
+        /*top: initial;*/
+        background-position: center center;
+    }
+    .slide#slide05 .wrapper {}
+    .slide#slide05 section {
+        opacity: 0;
+        max-width: 600px;
+        padding-left: 30px;
+        padding-top: 7%;
+    }
+    .slide#slide05 section p {
+        padding-left: 60px;
+    }
+    .slide#slide05 .quote {
+        max-width: 500px;
+        margin-top: 60px;
+    }
+    .content-block .wrapper {
+        padding: 50px 0;
+    }
+    .content-block p {
+        width: 85%;
+        margin: 15px auto;
+    }
+}
+
+@media only screen and (min-width: 1900px) {
+    .slide#slide14 #baby-triangle {
+        height: 250%;
+    }
+    .slide#slide09 #river-triangle {
+        height: 250%;
+    }
+    .slide#slide04 #pinball-triangle {
+        height: 220%;
+    }
+}
+
+
+/* ==========================================================================
+Helper classes
+========================================================================== */
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+
+/* ==========================================================================
+Print styles
+========================================================================== */
+
+@media print {
+    *,
+    *:before,
+    *:after {
+        background: transparent !important;
+        color: #000 !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+    thead {
+        display: table-header-group;
+    }
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+    img {
+        max-width: 100% !important;
+    }
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
+
+@media print {
+    * {
+        background: transparent !important;
+        color: #000 !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+    .ir a:after,
+    a[href^="javascript:"]:after,
+    a[href^="#"]:after {
+        content: "";
+    }
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+    thead {
+        display: table-header-group;
+    }
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+    img {
+        max-width: 100% !important;
+    }
+    @page {
+        margin: 0.5cm;
+    }
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
