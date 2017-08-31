@@ -63,6 +63,7 @@ body {
     -webkit-box-shadow: 4px 6px 12px -4px rgba(0,0,0,0.75);
     -moz-box-shadow: 4px 6px 12px -4px rgba(0,0,0,0.75);
     box-shadow: 4px 6px 12px -4px rgba(0,0,0,0.75);
+    cursor: pointer;
 
 }
 
@@ -156,8 +157,9 @@ h3, h3 a {
   color: black;
 }
 
-#navbar h1, h3:hover, h1 a:hover {
+#navbar h1, h3 a:hover, h1 a:hover {
   color: #E0DD92;
+  cursor: pointer;
 
 }
 
