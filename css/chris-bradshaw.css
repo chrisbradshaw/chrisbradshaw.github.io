@@ -3,20 +3,20 @@
 
 @font-face {
     font-family: Raleway-Regular;
-    src: url(font/Raleway-Regular.ttf);
+    src: url(fonts/Raleway-Regular.ttf);
 }
 
 @font-face {
     font-family: Raleway-Bold;
-    src: url(font/Raleway-Bold.ttf);
+    src: url(fonts/Raleway-Bold.ttf);
 }
 
 @font-face {
     font-family: Raleway-BoldItalic;
-    src: url(font/Raleway-BoldItalic.ttf);
+    src: url(fonts/Raleway-BoldItalic.ttf);
 }
 
-/*@import url(https://fonts.googleapis.com/css?family=Lobster);*/
+@import url(https://fonts.googleapis.com/css?family=Lobster);
 
 /****************BODY*********************/
 
@@ -119,7 +119,7 @@ body {
  margin-top: 11%;
 }
 
-h1, h1 a { 
+h1, h1 a {
   color: #fff;
   font: normal 3rem 'Raleway-BoldItalic';
   text-decoration: none;
@@ -223,16 +223,16 @@ i:hover {
 }
 
 #first {
-    background-image: url('../images/box-pictures/dark-money.png');
+    background-image: url('../images/dark-money.png');
 }
 
 
 #second {
-    background-image: url('../images/box-pictures/armoire.png');
+    background-image: url('../images/armoire.png');
 }
 
 #third {
-    background-image: url('../images/box-pictures/blog.png');
+    background-image: url('../images/blog.png');
 }
 
 /****************HOME PAGE TEXT *********************/
@@ -470,11 +470,11 @@ span.error {
     list-style: none;
 }
 
-.service-list li:before {    
+.service-list li:before {
     font-family: 'FontAwesome';
     content: "\f054";
     margin: 0 .3em 0 -15px;
-    color: #92002A; 
+    color: #92002A;
 }
 
 /* #04114A  033E40*/
@@ -482,10 +482,10 @@ span.error {
 
 /***** FOOTER *******/
 
-  footer { 
+  footer {
     font-family: Raleway-Regular;
     margin-left: 2.5%;
-    color: black; 
+    color: black;
     clear: both;
   }
 
