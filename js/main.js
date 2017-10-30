@@ -2,18 +2,18 @@ $(document).ready(function(){
 
   var $wiggle = $('.wiggle');
 
-$(function () {
-  $(window).scroll(function () {
-    var offset = $("body").scrollTop();
+    $(function () {
+      $(window).scroll(function () {
+        var offset = $("body").scrollTop();
 
-    if (offset >= 175) {
-      $('.call-email i').css( "color", "#04114A" );
-  } else {
-      $('.call-email i').css( "color", "rgb(224, 211, 146)" );
+        if (offset >= 175) {
+          $('.call-email i').css( "color", "#04114A" );
+      } else {
+          $('.call-email i').css( "color", "rgb(224, 211, 146)" );
 
-    }
-  });
-});
+        }
+      });
+    });
 
 
 var wiggleTime = function($wiggle) {
