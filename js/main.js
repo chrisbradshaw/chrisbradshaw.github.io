@@ -1,6 +1,6 @@
 $(document).ready(function(){
-
-  var $wiggle = $('.wiggle');
+    console.log("Welcome to chris-bradshaw.com!");
+     var $wiggle = $('.wiggle');
 
     $(function () {
       $(window).scroll(function () {
@@ -8,13 +8,11 @@ $(document).ready(function(){
 
         if (offset >= 175) {
           $('.call-email i').css( "color", "#04114A" );
-      } else {
+        } else {
           $('.call-email i').css( "color", "rgb(224, 211, 146)" );
-
         }
       });
     });
-
 
 var wiggleTime = function($wiggle) {
     $wiggle.ClassyWiggle() = function(method, options) {
@@ -96,13 +94,27 @@ var wiggleTime = function($wiggle) {
     };
 };
 
-
 function wiggleForOneSecond(el){
     el.ClassyWiggle();
     setTimeout(function(){el.ClassyWiggle('stop')},1000)
 }
 
 setInterval(function(){
-
       wiggleForOneSecond($('.wiggle'))},5000);
 });
+
+function updateClock() {
+    var now = new Date(), // current date
+        months = ['January', 'February', '...']; // you get the idea
+        time = now.getHours() + ':' + now.getMinutes(), // again, you get the idea
+
+        // a cleaner way than string concatenation
+        date = [now.getFullYear()].join(' ');
+
+    // set the content of the element with the ID time to the formatted string
+    document.getElementById('time').innerHTML = [date];
+
+}
+updateClock(); // initial call
+
+
