@@ -291,7 +291,7 @@ textarea {
 
 @font-face {
     font-family: "Bebas Neue";
-    src: url('../fonts/BebasNeue.woff') format('woff'), url('../fonts/BebasNeue.ttf') format('truetype'), url('../fonts/BebasNeue.svg') format('svg');
+    src: url('../font/BebasNeue.woff') format('woff'), url('../font/BebasNeue.ttf') format('truetype'), url('../font/BebasNeue.svg') format('svg');
     font-weight: normal;
     font-style: normal;
 }
