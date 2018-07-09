@@ -930,11 +930,11 @@ $(function($) { // Init ScrollMagic
     }
     request.send();*/
 
-    $('#catVideo')[0].play();
-    $('#lungVideo')[0].play();
-    $('#white-streets-video')[0].play();
-    $('#hexVideo')[0].play();
-    $('#ex-streets-video')[0].play();
+    // $('#catVideo')[0].play();
+    // $('#lungVideo')[0].play();
+    // $('#white-streets-video')[0].play();
+    // $('#hexVideo')[0].play();
+    // $('#ex-streets-video')[0].play();
 
     var visualizers = { nickCatchdubsSong: null, whiteLungSong: null, exHexSong: null };
     var v = null;
